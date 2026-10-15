@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ahmad Husein Al-farisy, Web Developer</title>
+  <meta name="description" content="Portofolio Ahmad Husein Al-farisy: web developer PHP (Laravel) dan JavaScript.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Public+Sans:wght@400;600&display=swap">
+  <link rel="stylesheet" href="portofolio.css">
+</head>
+<body>
+  <a class="lewati" href="#konten">Lewati ke konten</a>
+
+  <header class="bar wrap">
+    <a class="merek" href="#atas">Husein</a>
+    <nav aria-label="Menu utama">
+      <a href="#tentang">Tentang</a>
+      <a href="#keahlian">Keahlian</a>
+      <a href="#perjalanan">Perjalanan</a>
+      <a href="#proyek">Proyek</a>
+      <a href="#kontak">Kontak</a>
+      <button id="tema" type="button">Tema</button>
+    </nav>
+  </header>
+
+  <main id="konten">
+    <section class="hero wrap" id="atas">
+      <h1><span class="baris">Ahmad Husein</span><span class="baris">Al-farisy</span></h1>
+      <p class="peran">Saya membangun situs dan aplikasi web dengan PHP (Laravel) dan JavaScript, dari tampilan sampai server.</p>
+      <p class="status">Mahasiswa Sistem Informasi, semester 1</p>
+      <div class="aksi">
+        <a class="tombol" href="#proyek">Lihat proyek</a>
+        <a class="tombol sekunder" href="#kontak">Hubungi saya</a>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <section class="blok" id="tentang">
+        <h2>Tentang saya</h2>
+        <div class="isi">
+          <p>Saya Ahmad Husein Al-farisy, web developer dengan pengalaman 3 tahun di frontend, backend, API, dan hosting. Saya paling terbiasa dengan PHP, terutama Laravel, dan JavaScript.</p>
+          <p>Saya nyaman bekerja dalam tim maupun mandiri. Saya lulusan SMKN 4 Tanjungpinang Timur jurusan Rekayasa Perangkat Lunak, pernah magang enam bulan di Diskominfo Kepri, dan sekarang kuliah di Fakultas Rekayasa Industri.</p>
+        </div>
+      </section>
+
+      <section class="blok" id="keahlian">
+        <h2>Keahlian</h2>
+        <dl class="isi keahlian">
+          <div><dt>Frontend</dt><dd>HTML, CSS, JavaScript</dd></div>
+          <div><dt>Backend</dt><dd>PHP, Laravel</dd></div>
+          <div><dt>API dan hosting</dt><dd>Membuat API, lalu men-deploy dan mengelola aplikasi di hosting</dd></div>
+          <div><dt>Cara kerja</dt><dd>Bekerja dalam tim dan mandiri</dd></div>
+        </dl>
+      </section>
+
+      <section class="blok" id="perjalanan">
+        <h2>Perjalanan</h2>
+        <ol class="isi jejak">
+          <li>
+            <h3>SMKN 4 Tanjungpinang Timur</h3>
+            <p>Jurusan Rekayasa Perangkat Lunak (RPL).</p>
+          </li>
+          <li>
+            <h3>Magang di Diskominfo Kepri</h3>
+            <p>Enam bulan. Hasilnya Web Pencatatan Barang.</p>
+          </li>
+          <li class="kini">
+            <h3>Sistem Informasi, semester 1</h3>
+            <p>Fakultas Rekayasa Industri.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="blok" id="proyek">
+        <h2>Proyek</h2>
+        <article class="isi">
+          <h3>Web Pencatatan Barang</h3>
+          <p>Aplikasi web untuk mencatat barang, saya buat selama magang di Diskominfo Kepri. Fiturnya termasuk cetak berita acara PDF dan Email.</p>
+          <p><a class="tautan" href="https://github.com/Ahmadfarisy893/pencatatan-barang" target="_blank" rel="noopener">Lihat kode di GitHub</a></p>
+          <h3>Airline Reservation</h3>
+          <p>Aplikasi web untuk mempermudah pemesanan tiket pesawat.</p>
+          <p><a class="tautan" href="https://github.com/Ahmadfarisy893/airline-reservation" target="_blank" rel="noopener">Lihat kode di GitHub</a></p>
+          <h3>Penyampaian Aspirasi</h3>
+          <p>Aplikasi web dimana siswa dapat menyampaikan aspirasi mereka.</p>
+          <p><a class="tautan" href="https://github.com/Ahmadfarisy893/Penyampaian_Aspirasi" target="_blank" rel="noopener">Lihat kode di GitHub</a></p>
+        </article>
+      </section>
+
+      <section class="blok" id="kontak">
+        <h2>Kontak</h2>
+        <div class="isi">
+          <p>Punya proyek atau ingin berdiskusi? Hubungi saya lewat email atau GitHub.</p>
+          <ul class="kontak">
+            <li><a class="tautan" href="mailto:ahmadhuseinalfarisy@student.telkomuniversity.ac.id">ahmadhuseinalfarisy@student.telkomuniversity.ac.id</a></li>
+            <li><a class="tautan" href="https://github.com/Ahmadfarisy893" target="_blank" rel="noopener">github.com/Ahmadfarisy893</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="wrap kaki">
+    <p>&copy; <span id="tahun">2026</span> Ahmad Husein Al-farisy</p>
+  </footer>
+
+  <script src="portofolio.js"></script>
+</body>
+</html>
