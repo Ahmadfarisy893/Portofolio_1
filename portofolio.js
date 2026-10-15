@@ -1,4 +1,3 @@
-// Tema terang/gelap: ikut pengaturan perangkat, bisa diganti manual dan diingat.
 (function () {
   var root = document.documentElement;
   var tombol = document.getElementById("tema");
@@ -15,7 +14,7 @@
   }
   function perbarui() {
     var gelap = sekarang() === "dark";
-    tombol.textContent = gelap ? "🌞" : "🌛";
+    tombol.textContent = gelap ? "Light" : "Dark";
     tombol.setAttribute("aria-label", gelap ? "Ganti ke mode terang" : "Ganti ke mode gelap");
   }
  

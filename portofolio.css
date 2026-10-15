@@ -78,7 +78,7 @@ a { color: inherit; }
   .blok { grid-template-columns: 12rem 1fr; gap: 3rem; }
 }
 
-/* Keahlian */
+
 .keahlian > div { display: grid; grid-template-columns: 9.5rem 1fr; gap: 1rem; padding-block: .85rem; border-bottom: 1px solid var(--line); }
 .keahlian > div:first-child { padding-top: 0; }
 .keahlian dt { font-weight: 600; }
@@ -87,7 +87,7 @@ a { color: inherit; }
   .keahlian > div { grid-template-columns: 1fr; gap: .1rem; }
 }
 
-/* Perjalanan: urutan nyata, jadi memakai garis waktu */
+
 .jejak { list-style: none; padding: 0; }
 .jejak li { position: relative; padding: 0 0 1.8rem 1.6rem; border-left: 2px solid var(--line); }
 .jejak li:last-child { padding-bottom: 0; border-left-color: transparent; }
@@ -97,7 +97,7 @@ a { color: inherit; }
 .jejak p { margin: .2rem 0 0; color: var(--muted); }
 article.isi h3 { margin-bottom: .5rem; }
 
-/* Tautan */
+
 .tautan { color: var(--accent); font-weight: 600; text-underline-offset: .25em; }
 .tautan:hover { text-decoration-thickness: 2px; }
 .kontak { list-style: none; margin: 0; padding: 0; }
